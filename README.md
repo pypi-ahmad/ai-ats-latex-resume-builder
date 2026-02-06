@@ -1,9 +1,11 @@
-# 🚀 Universal AI Resume Builder v2.0
+# 🚀 Universal AI Resume Builder
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-orange)
 ![LaTeX](https://img.shields.io/badge/LaTeX-Professional%20Format-green)
+
+![Thumbnail](Thumbnail.png)
 
 A professional, multi-modal AI Resume Builder that combines **Computer Vision**, **Market Research**, and **LLMs** to craft tailored, ATS-friendly LaTeX resumes.
 
@@ -18,7 +20,7 @@ It supports **Local LLMs (Ollama)** for zero-cost generation and **Cloud APIs** 
 *   **🎨 Professional Formatting**: Generates high-quality PDFs using a structured LaTeX template.
 *   **🤖 Multi-Model Support**:
     *   **Local**: Auto-detects installed **Ollama** models (Llama 3, Mistral, Gemma).
-    *   **Cloud**: Support for **OpenAI** (GPT-4o), **Google Gemini** (1.5/2.5 Flash), and **Anthropic** (Claude 3.5 Sonnet).
+    *   **Cloud**: Support for **OpenAI** (GPT-4o, gpt-5-mini), **Google Gemini** (2.5 Flash), and **Anthropic** (Claude 3.5 Sonnet).
 *   **👁️ Flexible Vision Pipeline**: Choose between local OCR (Paddle/Ollama Vision) or Cloud Vision (Gemini/GPT) for extracting text from messy resumes.
 
 ## 🛠️ Prerequisites
@@ -32,7 +34,7 @@ Before running the app, ensure you have the following installed:
     *   **Linux**: `sudo apt-get install texlive-full`.
 3.  **Ollama** (Optional, for local privacy):
     *   Download from [ollama.com](https://ollama.com).
-    *   Pull a model: `ollama pull llama3` or `ollama pull glm4`.
+    *   Pull a model: `ollama run llama3.2-vision` or `ollama run glm-4.7-flash`.
 
 ## 🚀 Installation & Setup
 
@@ -96,6 +98,16 @@ Before running the app, ensure you have the following installed:
 
 ## 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## 🛠️ Support, Bug Reports & Feature Requests
+
+I am actively maintaining this project and want to make it as robust as possible! 
+
+*   **Found a Bug?** Open an [Issue](https://github.com/pypi-ahmad/ai-ats-latex-resume-builder/issues).
+*   **Need a Feature?** (e.g., new templates, more OCR providers). Let me know!
+*   **Issues?** If the LaTeX compilation or a specific model isn't working for you, describe the error in the issues section, and **I will fix it as soon as possible.**
+
+Your feedback helps make this tool better for everyone.
 
 ## 📄 License
 [MIT](https://choosealicense.com/licenses/mit/)
