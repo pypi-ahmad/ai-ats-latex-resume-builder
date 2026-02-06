@@ -1,0 +1,12 @@
+streamlit
+ollama
+ddgs
+pymupdf
+python-docx
+openai
+google-genai
+anthropic
+pillow
+paddlepaddle
+paddleocr
+opencv-python-headless

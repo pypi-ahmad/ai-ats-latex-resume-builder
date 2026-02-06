@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# LaTeX Build Files (Generated during compilation)
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# Generated Resume Artifacts
+generated_resume.pdf
+generated_resume.tex
+
+# Local specific
+.DS_Store
+.vscode/
+idea/
