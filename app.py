@@ -36,7 +36,7 @@ except Exception:
     PADDLE_AVAILABLE = False
 
 # --- Global Config ---
-st.set_page_config(page_title="AI Resume Builder v2.0", layout="wide")
+st.set_page_config(page_title="AI Resume Builder", layout="wide")
 
 # --- Helper Functions ---
 
@@ -368,7 +368,7 @@ def main():
     Handles UI rendering, state management, and workflow orchestration.
     """
     config = get_llm_config()
-    st.title("🚀 AI Resume Builder v2.0")
+    st.title("🚀 AI Resume Builder")
 
     # Session State Initialization - Preserves data across reruns
     if 'step' not in st.session_state: st.session_state.step = 1
