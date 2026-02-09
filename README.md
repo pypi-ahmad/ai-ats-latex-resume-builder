@@ -40,8 +40,8 @@ Before running the app, ensure you have the following installed:
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/ai-resume-builder.git
-    cd ai-resume-builder
+    git clone https://github.com/pypi-ahmad/ai-ats-latex-resume-builder.git
+    cd ai-ats-latex-resume-builder
     ```
 
 2.  **Create a Virtual Environment**
