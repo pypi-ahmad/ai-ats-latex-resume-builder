@@ -20,6 +20,8 @@ venv/
 # Generated Resume Artifacts
 generated_resume.pdf
 generated_resume.tex
+generated_resume_*.pdf
+generated_resume_*.tex
 
 # Local specific
 .DS_Store
